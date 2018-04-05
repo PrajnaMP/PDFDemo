@@ -1,0 +1,207 @@
+{
+  "_id": "1f560c7034cb9d3467545a9127fcb4a1",
+  "_rev": "2-9a9b6c578429867a049a6e27379f3af4",
+  "archived": null,
+  "auditType": "object",
+  "author": {
+    "email": "bhargav.rk@mobinius.com",
+    "type": "IB.EdBundle.Document.Person"
+  },
+  "dates": {
+    "creationDate": "2017-11-23T10:38:49.528Z",
+    "lastModifiedDate": "2017-11-23T10:39:03.532Z",
+    "completionDate": ""
+  },
+  "groupId": "b641edc6298b258fa82ff7b8e29615d4",
+  "maps": [
+    {
+      "mapID": "c6fbadf18d93183bc3cade20500c760c",
+      "mapname": "01.WW01_Wokkelvloer wapeningv2_2016-04-22-1"
+    }
+  ],
+  "name": "Test 1",
+  "participants": {
+    "informed": [
+      {
+        "email": "informed@mobinius.com",
+        "type": "IB.EdBundle.Document.Person"
+      }
+    ],
+    "type": "IB.EdBundle.Document.Participants"
+  },
+  "project": "781b10fae5615e07d102908bc500227e",
+  "questions": [
+    {
+      "categoryName": "cate 1",
+      "questions": [
+        {
+          "question": "q1",
+          "answer": [
+            "YES"
+          ],
+          "ticket": [
+            "1ae6ceb356746dbe927022f43bde2886"
+          ],
+          "description": "Test description for question q1",
+          "settings": {
+            "answertype": "yesnona"
+          }
+        },
+        {
+          "question": "q2",
+          "answer": [
+            "Test answer / description for question q2"
+          ],
+          "ticket": [
+          ],
+          "description": "Test answer / description for question q2",
+          "settings": {
+            "answertype": "freetext"
+          }
+        },
+        {
+          "question": "q3",
+          "answer": [
+            "a",
+            "b"
+          ],
+          "ticket": [
+          ],
+          "description": "",
+          "settings": {
+            "answertype": "multiplechoice",
+            "answer": [
+              "a",
+              "b"
+            ],
+            "choice": "multiple"
+          }
+        },
+        {
+          "question": "q4",
+          "answer": [
+            "aa"
+          ],
+          "ticket": [
+          ],
+          "description": "",
+          "settings": {
+            "answertype": "multiplechoice",
+            "answer": [
+              "aa",
+              "bb"
+            ],
+            "choice": "single"
+          }
+        }
+      ],
+      "settings": {
+        "duplicate": false
+      }
+    },
+    {
+      "categoryName": "cate 2",
+      "questions": [
+        {
+          "question": "q1",
+          "answer": [
+
+          ],
+          "ticket": [
+            "1ae6ceb356746dbe927022f43bde2886"
+          ],
+          "description": "Test description for question q1",
+          "settings": {
+            "answertype": "yesnona"
+          }
+        },
+        {
+          "question": "q2",
+          "answer": [
+            "Test answer / description for question q2"
+          ],
+          "ticket": [
+          ],
+          "description": "Test answer / description for question q2",
+          "settings": {
+            "answertype": "freetext"
+          }
+        },
+        {
+          "question": "q3",
+          "answer": [
+            "a",
+            "b"
+          ],
+          "ticket": [
+          ],
+          "description": "",
+          "settings": {
+            "answertype": "multiplechoice",
+            "answer": [
+              "a",
+              "b"
+            ],
+            "choice": "multiple"
+          }
+        },
+        {
+          "question": "q4",
+          "answer": [
+
+          ],
+          "ticket": [
+          ],
+          "description": "",
+          "settings": {
+            "answertype": "multiplechoice",
+            "answer": [
+              "aa",
+              "bb"
+            ],
+            "choice": "single"
+          }
+        }
+      ],
+      "settings": {
+        "duplicate": false
+      }
+    }
+  ],
+  "signature": [
+    {
+      "image": "signature-20171123T104007754.jpeg",
+      "name": "Bhargav Rk"
+    }
+  ],
+  "status": "In Progress",
+  "template": "b641edc6298b258fa82ff7b8e29635ec",
+  "timeline": [
+    {
+      "actor": {
+        "email": "bhargav.rk@mobinius.com",
+        "interface": "web",
+        "interfaceVersion": "4.9.1",
+        "type": "IB.EdBundle.Document.Person"
+      },
+      "operation": "assign",
+      "person": {
+        "email": "informed@mobinius.com",
+        "type": "IB.EdBundle.Document.Person"
+      },
+      "role": "informed",
+      "time": "2017-11-23T10:38:49.528Z",
+      "type": "IB.EdBundle.Document.Assignment"
+    }
+  ],
+  "type": "IB.EdBundle.Document.Audit",
+  "_attachments": {
+    "signature-20171123T104007754.jpeg": {
+      "content_type": "image/jpeg",
+      "revpos": 2,
+      "digest": "md5-3ovH6M4E8vmfXIbEAadHEQ==",
+      "length": 4791,
+      "stub": true
+    }
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "_id": "211e37740f88897bbe47ca655375f4fa",
+  "_rev": "3-2325729d37320bcaf6dfdac2b10553be",
+  "archived": null,
+  "auditType": "area",
+  "author": {
+    "email": "kiran.gk@mobinius.com",
+    "type": "IB.EdBundle.Document.Person"
+  },
+  "dates": {
+    "creationDate": "2017-10-11T06:13:00.130Z",
+    "lastModifiedDate": "2017-10-18T05:29:23.830Z",
+    "completionDate": "2017-10-18T05:29:23.830Z"
+  },
+  "groupId": "d1ebf9b1d0a268ad6a9db94e3b5fe3c3",
+  "maps": [],
+  "name": "Web frontend app v4.9.1",
+  "participants": {
+    "type": "IB.EdBundle.Document.Participants",
+    "informed": [
+      {
+        "email": "k.wolters@flexwhere.nl",
+        "type": "IB.EdBundle.Document.Person"
+      }
+    ],
+    "responsible": {
+      "email": "bhargav.rk@mobinius.com",
+      "type": "IB.EdBundle.Document.Person"
+    }
+  },
+  "project": "d1ebf9b1d0a268ad6a9db94e3b3a2a45",
+  "questions": [
+    {
+      "categoryName": "General",
+      "questions": [
+        {
+          "question": "What is the version of the application?",
+          "answer": [
+            "v4.9.1"
+          ],
+          "ticket": [],
+          "description": "v4.9.1",
+          "settings": {
+            "answertype": "freetext"
+          }
+        },
+        {
+          "question": "What is the release type?",
+          "answer": [
+            "Minor"
+          ],
+          "ticket": [],
+          "description": "",
+          "settings": {
+            "answertype": "multiplechoice",
+            "answer": [
+              "Minor",
+              "Hot fix",
+              "Moderate",
+              "Significant",
+              "Major"
+            ],
+            "choice": "single"
+          }
+        },
+        {
+          "question": "Is there a functional test in place?",
+          "answer": [
+            "YES"
+          ],
+          "ticket": [],
+          "description": "",
+          "settings": {
+            "answertype": "yesnona"
+          }
+        },
+        {
+          "question": "Is it executed in acceptance?",
+          "answer": [
+            "YES"
+          ],
+          "ticket": [],
+          "description": "",
+          "settings": {
+            "answertype": "yesnona"
+          }
+        },
+        {
+          "question": "Is there a regression test in place?",
+          "answer": [
+            "YES"
+          ],
+          "ticket": [],
+          "description": "",
+          "settings": {
+            "answertype": "yesnona"
+          }
+        },
+        {
+          "question": "Is there a roll back procedure in place?",
+          "answer": [
+            "YES"
+          ],
+          "ticket": [],
+          "description": "",
+          "settings": {
+            "answertype": "yesnona"
+          }
+        },
+        {
+          "question": "Are the dependent services are also in place?",
+          "answer": [
+            "YES"
+          ],
+          "ticket": [],
+          "description": "",
+          "settings": {
+            "answertype": "yesnona"
+          }
+        },
+        {
+          "question": "Does the update require a reindex of databases in the Elastic Search?",
+          "answer": [
+            "NO"
+          ],
+          "ticket": [],
+          "description": "",
+          "settings": {
+            "answertype": "yesnona"
+          }
+        }
+      ],
+      "settings": {
+        "duplicate": false
+      }
+    },
+    {
+      "categoryName": "App Specific",
+      "questions": [
+        {
+          "question": "Is the app tested on the role based?",
+          "answer": [
+            "YES"
+          ],
+          "ticket": [],
+          "description": "",
+          "settings": {
+            "answertype": "yesnona"
+          }
+        },
+        {
+          "question": "Is the app tested for the reporter role?",
+          "answer": [
+            "YES"
+          ],
+          "ticket": [],
+          "description": "",
+          "settings": {
+            "answertype": "yesnona"
+          }
+        }
+      ],
+      "settings": {
+        "duplicate": false
+      }
+    },
+    {
+      "categoryName": "Database",
+      "questions": [
+        {
+          "question": "Is the structure of the ticket document is correct?",
+          "answer": [
+            "YES"
+          ],
+          "ticket": [],
+          "description": "",
+          "settings": {
+            "answertype": "yesnona"
+          }
+        },
+        {
+          "question": "Is the structure of the audit document is correct?",
+          "answer": [
+            "YES"
+          ],
+          "ticket": [],
+          "description": "",
+          "settings": {
+            "answertype": "yesnona"
+          }
+        },
+        {
+          "question": "Is the structure of the map document is correct?",
+          "answer": [
+            "YES"
+          ],
+          "ticket": [],
+          "description": "",
+          "settings": {
+            "answertype": "yesnona"
+          }
+        },
+        {
+          "question": "Is the structure of the audit template document is correct?",
+          "answer": [
+            "YES"
+          ],
+          "ticket": [],
+          "description": "",
+          "settings": {
+            "answertype": "yesnona"
+          }
+        },
+        {
+          "question": "Is the structure of the map group document is correct?",
+          "answer": [
+            "YES"
+          ],
+          "ticket": [],
+          "description": "",
+          "settings": {
+            "answertype": "yesnona"
+          }
+        },
+        {
+          "question": "Is the structure of the template group document is correct?",
+          "answer": [
+            "YES"
+          ],
+          "ticket": [],
+          "description": "",
+          "settings": {
+            "answertype": "yesnona"
+          }
+        }
+      ],
+      "settings": {
+        "duplicate": false
+      }
+    },
+    {
+      "categoryName": "Signoff",
+      "questions": [
+        {
+          "question": "Development Team",
+          "answer": [
+            "YES"
+          ],
+          "ticket": [],
+          "description": "",
+          "settings": {
+            "answertype": "yesnona"
+          }
+        },
+        {
+          "question": "QA Team",
+          "answer": [
+            "YES"
+          ],
+          "ticket": [],
+          "description": "",
+          "settings": {
+            "answertype": "yesnona"
+          }
+        },
+        {
+          "question": "IB Team",
+          "answer": [
+            "YES"
+          ],
+          "ticket": [],
+          "description": "",
+          "settings": {
+            "answertype": "yesnona"
+          }
+        }
+      ],
+      "settings": {
+        "duplicate": false
+      }
+    }
+  ],
+  "signature": [
+    {
+      "image": "signature-20171011T061527124.jpeg",
+      "name": "Bhargav RK"
+    }
+  ],
+  "status": "completed",
+  "template": "d1ebf9b1d0a268ad6a9db94e3bc3fa59",
+  "timeline": [
+    {
+      "actor": {
+        "email": "kiran.gk@mobinius.com",
+        "interface": "web",
+        "interfaceVersion": "4.9",
+        "type": "IB.EdBundle.Document.Person"
+      },
+      "operation": "assign",
+      "person": {
+        "email": "bhargav.rk@mobinius.com",
+        "type": "IB.EdBundle.Document.Person"
+      },
+      "role": "responsible",
+      "time": "2017-10-11T06:13:00.130Z",
+      "type": "IB.EdBundle.Document.Assignment"
+    },
+    {
+      "actor": {
+        "email": "kiran.gk@mobinius.com",
+        "interface": "web",
+        "interfaceVersion": "4.9",
+        "type": "IB.EdBundle.Document.Person"
+      },
+      "time": "2017-10-11T06:13:00.130Z",
+      "start": "created",
+      "transition": "start_on_create",
+      "type": "IB.EdBundle.Document.Transition"
+    },
+    {
+      "actor": {
+        "email": "kiran.gk@mobinius.com",
+        "interface": "web",
+        "interfaceVersion": "4.9",
+        "type": "IB.EdBundle.Document.Person"
+      },
+      "operation": "assign",
+      "person": {
+        "email": "k.wolters@flexwhere.nl",
+        "type": "IB.EdBundle.Document.Person"
+      },
+      "role": "informed",
+      "time": "2017-10-11T06:13:00.130Z",
+      "type": "IB.EdBundle.Document.Assignment"
+    },
+    {
+      "actor": {
+        "email": "bhargav.rk@mobinius.com",
+        "interface": "web",
+        "interfaceVersion": "4.9.1",
+        "type": "IB.EdBundle.Document.Person"
+      },
+      "time": "2017-10-18T05:29:23.830Z",
+      "start": "started",
+      "transition": "overrule_to_completed",
+      "type": "IB.EdBundle.Document.Transition"
+    }
+  ],
+  "type": "IB.EdBundle.Document.Audit",
+  "_attachments": {
+    "signature-20171011T061527124.jpeg": {
+      "content_type": "image/jpeg",
+      "revpos": 2,
+      "digest": "md5-JqoUgEGj+o2hFu44sLcB6g==",
+      "length": 5859,
+      "stub": true
+    }
+  }
+}
